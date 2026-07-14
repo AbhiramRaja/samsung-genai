@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Vissapragada Raja Abhiram",
+  "github": "AbhiramRaja",
+  "lab1_scenario": "A",
+  "lab1_prompt": "You are an expert Senior Customer Experience Specialist on the Care+ Escalations Team, known for turning frustrated customers into brand advocates through exceptional, empathetic, and definitive problem-solving. Draft a short, high-impact escalation email resolving a 3rd-time battery issue under warranty, without offering a refund. Context: The customer's Galaxy Watch battery has failed three times this month. They are frustrated and under warranty. A refund is off the table, but a premium replacement/repair is approved. Constraints: Keep it brief and scannable, no refund offers, Acknowledge the repeat failure immediately, Provide a definitive, friction-free next step. Tone: Direct, deeply empathetic, and action-oriented. No corporate fluff. Output format: Provide a ready-to-send email draft including Subject Line: (Must be professional but urgent), Salutation, Body Paragraphs: (Empathy & History -> The Resolution Plan -> Boundary on Refund/Scope) , Call to Action / Next Steps and Sign-off",
+  "lab1_output_met_constraints": false,
+  "lab1_extra_scenarios_done": 0,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "The AI correctly identifies the final answer as 4,299 units, but then it jumps directly through the calculations in a single block of text, focusing entirely on a fast computational breakdown.",
+  "lab2_cot_prompt": "An SRM-area distribution center starts the morning with an initial inventory of 4,200 Galaxy Buds units. A morning shipment dispatches 850 units out to retail stores. Following this shipment, a quality control hold is placed on exactly 6% of whatever stock is left in the warehouse. Later that afternoon, the center receives a fresh restock of 1,150 units, which are clear of any quality holds. \n\nWork through this one step at a time: first compute the remaining stock after the shipment, then calculate and subtract the units put on hold, and finally add the afternoon restock. Show your work for each step clearly before stating the final number of units available for sale at the end of the day.",
+  "lab2_cot_output_summary": "The AI methodically breaks the problem down chronologically, showing that subtracting the 850-unit shipment leaves 3,350 units, from which a 6% hold isolates exactly 201 units (leaving 3,149 clear). It then visibly adds the 1,150 restocked units to explicitly verify the final total of 4,299 units available for sale.",
+  "better_approach": "cot",
+  "stretch_done": true,
+  "stretch_react_prompt": "In actual logistics, a final number is only half the story, you need to see the \"WHY? and HOW?\". By laying out every step, the Chain-of-Thought approach shows you exactly how it handled the details (like isolating those 201 held units and ignoring distracting info, like the 3-partner split). It basically gives you a clear paper trail to double-check the logic and confidently trust the data before making a high-stakes decision.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T09:50:53.021Z"
+}
