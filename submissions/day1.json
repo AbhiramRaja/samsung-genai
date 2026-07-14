@@ -1,7 +1,7 @@
 {
   "day": 1,
   "student_name": "Vissapragada Raja Abhiram",
-  "github": "https://github.com/AbhiramRaja",
+  "github": "AbhiramRaja",
   "lab2_team": "Team Gold",
   "lab2_model_used": "\"HuggingFaceTB/SmolLM2-360M-Instruct\"  ,\"distilgpt2\", \"Qwen/Qwen2.5-0.5B-Instruct\" ,\"Qwen/Qwen2.5-1.5B-Instruct\" , \"Qwen/Qwen3-32B\"",
   "lab2_gradio_url": "https://2037667757751378b8.gradio.live/",
@@ -21,5 +21,5 @@
   "stretch_evidence": "All three models successfully triggered their copyright guardrails. Instead of attempting to hallucinate the script or reproduce copyrighted material verbatim, they politely refused, stating they cannot generate exact copyrighted scripts, but offered to help write an original script in a similar comedic, fourth-wall-breaking style. This confirms robust safety fine-tuning around intellectual property theft.",
   "tasks_completed": 5,
   "tasks_total": 5,
-  "submitted_at": "2026-07-14T04:19:46.695Z"
+  "submitted_at": "2026-07-14T04:27:39.429Z"
 }
