@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "student_name": "Vissapragada Raja Abhiram",
+  "github": "AbhiramRaja",
+  "ir_hallucination_done": true,
+  "ir_bias_done": true,
+  "ir_guardrail_builder_done": true,
+  "ir_battle_complete": true,
+  "ir_battle_blocked": 8,
+  "ir_battle_total": 8,
+  "rag_scenario": "B",
+  "rag_no_rag_summary": "It was like Samsung India differs significantly based on whether the employee is the primary caregiver and it was claiming few numbers, pretty confidently. But then it did get things for India and did mention things how they are different from the US",
+  "rag_grounded_summary": "It fetched info from the prompt and gave the results which are actually grounded",
+  "rag_judgement": "fixed_wrong",
+  "stretch_done": true,
+  "stretch_notes": "When it is written that \"Use ONLY the following information to answer. Do not use anything outside it.\", it would take the context as final. It wouldnt take it from the memory it already knew.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15T06:38:50.998Z"
+}
