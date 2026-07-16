@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Vissapragada Raja Abhiram",
+  "github": "AbhiramRaja",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "The support bot honoured a discount which never existed in their policy(fabricated). So this would come under Hallucination n reliability over this chat bot has been violated"
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "The system was quietly logging every message from employees without asking, and it is effecting their privacy. It didnt even mention people that these responses are being logged"
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Safety",
+      "justification": "The malicious use of realistic, synthesized media directly manipulated public sentiment and caused systemic economic instability."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The model used proxy variables to systemically down rank the applicants based on their gender, creating discriminatory hiring practices."
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "Unfair pattern suppression went completely unchecked for weeks due to a total lack of active human review and intervention loops."
+    },
+    {
+      "id": "F",
+      "failure_type": "Security Breach",
+      "principle": "Security",
+      "justification": "Vulnerabilities in authentication protocols allowed threat actors to weaponize synthesized audio, breaking down organizational operational defense structures."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Air Canada Support Chatbot",
+  "stretch_failure_type": "Hallucination",
+  "stretch_principle": "Accountability",
+  "stretch_notes": "Air Canada's AI customer service bot fabricated a custom bereavement discount policy for a passenger. The company tried to argue it wasn't responsible for the bot's autonomous statements, but a Canadian tribunal ruled they were legally bound by its outputs.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T06:19:55.917Z"
+}
